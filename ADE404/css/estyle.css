@@ -1,0 +1,145 @@
+body, html {
+    height: 100%;
+    background: url("../images/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.88;
+}
+
+* {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1, h2, h3 {
+	color: #FFFF00;
+	text-align: center;
+	font-family: 'Satisfy', cursive;
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  font-family: 'Satisfy', cursive;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.8em;
+  color: white;
+  text-align: center;
+  padding: 14px 0px 16px 0px;
+  text-decoration: none;
+}
+
+.food, .foodie {
+	display: inline-flex;
+	justify-content: space-between; 
+	padding-left: 50px;
+	padding-top: 50px;
+	font-weight: bold;
+	font-size: 2em;
+	font-family: 'Satisfy', cursive;
+	align-content: center;
+}
+
+.afri {
+	background-image: url("../images/gray.png");
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 100px;
+	opacity: 0.8;
+	color: yellow;
+}
+
+.caf {
+	background-image: url("../images/yeyow.jpg");
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 100px;
+	opacity: 0.8;
+	color: #8c8c8c;
+}
+
+.chin {
+	background-image: url("../images/gray.png");
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 100px;
+	opacity: 0.8;
+	color: yellow;
+}
+
+.des {
+	background-image: url("../images/gray.png");
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 100px;
+	opacity: 0.8;
+	color: yellow;
+}
+
+.indi {
+	background-image: url("../images/yeyow.jpg");
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 100px;
+	opacity: 0.8;
+	color: #8c8c8c;
+}
+
+.ital {
+	background-image: url("../images/yeyow.jpg");
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 100px;
+	opacity: 0.8;
+	color: #8c8c8c;
+}
+
+.piz {
+	background-image: url("../images/gray.png");
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 100px;
+	opacity: 0.8;
+	color: yellow;
+}
+
+.port {
+	background-image: url("../images/gray.png");
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 100px;
+	opacity: 0.8;
+	color: yellow;
+}
+
+.thai {
+	background-image: url("../images/yeyow.jpg");
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 100px;
+	opacity: 0.8;
+	color: #8c8c8c;
+}
+
+.bar {
+	background-image: url("../images/yeyow.jpg");
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 100px;
+	opacity: 0.8;
+	color: #8c8c8c;
+}
+
+.choice:after {
+	content: "";
+	display: table;
+	clear: both;
+}

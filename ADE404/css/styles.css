@@ -1,0 +1,175 @@
+a {
+	text-decoration: none;
+}
+
+h1, h2 {
+	text-align: center;
+	font-family: 'Satisfy', cursive;
+}
+
+p {
+	font-size: 1em;
+	font-family: 'Playfair Display', serif;
+}
+
+body {
+	background-color: #808080;
+}
+
+
+/*Images*/
+.hand {
+	border-top: 8px solid #ffff00;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px; 
+} 
+
+.hands {
+	border-top: 8px solid #737373;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+ font-family: 'Satisfy', cursive;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.8em;
+  color: white;
+  text-align: center;
+  padding: 14px 0px 16px 0px;
+  text-decoration: none;
+}
+
+
+/*Media Queries*/
+@media screen and (min-width: 768px) {
+	.main-content {
+		padding-left: 150px;
+		width: 80%;
+	}
+
+	p {
+		font-size: 1em;
+	}
+
+	body {
+		font-family: 'Satisfy', cursive;
+	}
+
+	.yumm {
+	    background-image: url("../images/grey.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		text-align: center;
+	}
+
+	.yoo {
+	    background-image: url("../images/grey.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		text-align: center;
+	}
+
+	.yaay, .yasm {
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.main-content {
+		
+	}
+
+	.navbar {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		font-size: 1em;
+	}
+
+	.hand /*food image*/{
+		margin-left: 750px;
+	}
+
+	.hands /*images for things to do and promotions*/{
+		margin-left: 90px;
+	}
+
+	.rest /*restuarant and transport heading*/ {
+		font-size: 3.5em;
+		color: #ffff00;
+		padding-left: 20px;
+		font-family: 'Satisfy', cursive;
+	}
+
+	.discover /*restaurant and transport paragraphs*/ {
+		text-align: justify;
+		margin-top: -150px;
+		padding-left: 40px;
+		font-size: 1em;
+		font-family: 'Playfair Display', serif;
+	}
+
+	.things /*things to do and promotions header*/ {
+		font-size: 3.5em;
+		text-align: center;
+		font-family: 'Satisfy', cursive;
+	}
+
+	.most /*things to do and promos paragraph tags*/  {
+		text-align: center;
+		font-size: 1em;
+		font-family: 'Playfair Display', serif;
+	}
+
+	.yumm {
+		height: 500px;
+	    background-image: url("../images/grey.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 1500px 900px;
+		border-top-right-radius: 20px;
+		border-bottom-left-radius: 20px;
+	}
+
+	.bgb {
+		background-image: url("../images/grey.jpg");
+		border-top: 10px solid yellow;
+		margin-top: 20px;
+		border-top-right-radius: 20px;
+	}
+
+	.yaay {
+		height: 500px;
+	    /*background-image: url("../images/yey.png");*/
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 1500px 900px;
+	}
+
+	.yoo {
+		height: 500px;
+	    background-image: url("../images/grey.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 1500px 900px;
+		border-top-right-radius: 20px;
+		border-bottom-left-radius: 20px;
+	}
+
+	.yasm {
+		height: 500px;
+	    /*background-image: url("../images/grey.jpg");*/
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 1500px 900px;
+	}
+}
